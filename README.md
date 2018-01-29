@@ -2,7 +2,7 @@
 
 Current veriosn: vrpn_07_30 - [link](ftp://ftp.cs.unc.edu/pub/packages/GRIP/vrpn/vrpn_07_30.zip)
 
-This is cloned to FDCL so that all the codes which uses VRPN will have a way to get it easily, and also as a backup in case original sources are removed.
+This is cloned to FDCL so that all the FDCL codes which use these libraries will have a way to get it easily, and also as a backup in case the original sources are removed.
 
 Vicon Tracker 3 has a built-in VRPN server that will stream data using VRPN ([see the link](https://www.vicon.com/faqs/software/how-does-tracker-work-with-vrpn)).
 The official VRPN library is avaible [here](https://github.com/vrpn/vrpn/wiki). Unfortunately, it does not seem to be compatible with ubuntu. It is recommended to follow the [instructions](http://www.cs.unc.edu/~taylorr/cyberinfrastructure/vrpn_html/index.html) maintained by UNC.
