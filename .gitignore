@@ -1,3 +1,8 @@
+
+Makefile
+client_src/Makefile
+quat/Makefile
+server_src/Makefile
 client_src/logfilesenders
 client_src/logfiletypes
 client_src/pc_linux64/
