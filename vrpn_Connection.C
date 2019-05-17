@@ -2432,7 +2432,8 @@ int vrpn_start_server(const char * machine, char * server_name, char * args,
 #if defined(sparc) || defined(FreeBSD) || defined(_AIX) || defined(__ANDROID__)
                     int status;  // doesn't exist on sparc_solaris or FreeBSD
 #else
-                    union wait status;
+                    // union wait status;
+		    int status;
 #endif
 		    
                     /* Check to see if they called back yet. */
